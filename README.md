@@ -1,12 +1,13 @@
 # Credit_Risk_Analysis
-Resampling Models to Predict Credit Risk
+
 <p align="center">
-  <a href="#">title</a>
-  <br/><br/> 
-  <img src="something_relevant.png" width="800">
+  <img src="images/Loan-Free-PNG-Image.png" width="400">
+  <br/><br/>
+  <a href="#">Resampling Models to Predict Credit Risk</a>
 </p>
 
-  
+
+
 ## Table of Contents
 * [Overview](https://github.com/rkaysen63/Credit_Risk_Analysis/blob/master/README.md#overview)
 * [Resources](https://github.com/rkaysen63/Credit_Risk_Analysis/blob/master/README.md#resources)
@@ -23,15 +24,43 @@ Resampling Models to Predict Credit Risk
 * Lesson Plan: UTA-VIRT-DATA-PT-02-2021-U-B-TTH, Module 17 Challenge
 
 ## Overview:
-
+* Overview of the loan prediction risk analysis:  The purpose of this analysis is well defined (4 pt)
 
 
 ## Results:
+<p align="center">
+  <a href="#">title</a>
+  <br/><br/> 
+  <img src="something_relevant.png" width="800">
+</p>
 
+### Deliverable 1:  Use Resampling Models to Predict Credit Risk.  For all three algorithms, the following have been completed:
+* An accuracy score for the model is calculated (7.5 pt)
+* A confusion matrix has been generated (7.5 pt)
+* An imbalanced classification report has been generated (15 pt)
 
+### Deliverable 2: Use the SMOTEENN algorithm to Predict Credit Risk The combinatorial SMOTEENN algorithm does the following:
+* An accuracy score for the model is calculated (5 pt)
+* A confusion matrix has been generated (5 pt)
+* An imbalanced classification report has been generated (5 pt)
+
+### Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk.  Complete all requirements below:
+
+* The BalancedRandomForestClassifier algorithm does the following:
+  * An accuracy score for the model is calculated (2.5 pt)
+  * A confusion matrix has been generated (2.5 pt)
+  * An imbalanced classification report has been generated (5 pt)
+  * The features are sorted in descending order by feature importance (5 pt)
+* The EasyEnsembleClassifier algorithm does the following:
+  * An accuracy score of the model is calculated (2.5 pt)
+  * A confusion matrix has been generated (2.5 pt)
+  * An imbalanced classification report has been generated (5 pt)
+* Results: There is a bulleted list that describes the balanced accuracy score and the precision and recall scores of all six machine learning models (15 pt)
 
 ## Summary:
-
+ 
+  * There is a summary of the results (2 pt)
+  * There is a recommendation on which model to use, or there is no recommendation with a justification (3 pt)
 
 
 
