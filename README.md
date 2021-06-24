@@ -18,7 +18,7 @@
 * Data: 
   *  LoanStats_2019Q1.csv
 * Tools: 
-  * Python
+  * Python (Libraries: pandas, matplotlib, imblearn, sklearn)
   * Jupyter Notebook
 * "Loan Approved" image is courtesy of: http://www.pngall.com/wp-content/uploads/2017/11/Loan-Free-PNG-Image.png
 * Lesson Plan: UTA-VIRT-DATA-PT-02-2021-U-B-TTH, Module 17 Challenge
