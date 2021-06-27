@@ -11,7 +11,6 @@
 * [Resources](https://github.com/rkaysen63/Credit_Risk_Analysis/blob/master/README.md#resources)
 * [Results](https://github.com/rkaysen63/Credit_Risk_Analysis/blob/master/README.md#results)
 * [Summary](https://github.com/rkaysen63/Credit_Risk_Analysis/blob/master/README.md#summary)
-
 ## Resources:    
 * Data: 
   *  LendingClub data:  LoanStats_2019Q1.csv
