@@ -16,7 +16,7 @@
 
 ## Resources:    
 * Data: 
-  *  LoanStats_2019Q1.csv
+  *  LendingClub data:  LoanStats_2019Q1.csv
 * Tools: 
   * Python (Libraries: pandas, matplotlib, imblearn, sklearn)
   * Jupyter Notebook
@@ -24,8 +24,9 @@
 * Lesson Plan: UTA-VIRT-DATA-PT-02-2021-U-B-TTH, Module 17 Challenge
 
 ## Overview:
-* Overview of the loan prediction risk analysis:  The purpose of this analysis is well defined (4 pt)
-
+The purpose of this analysis is evaluate five supervised learning models for their ability to predict high risk loans.  The models will be trained using an unbalanced<sup>1<sup/> dataset from LendingClub lending services.  
+<br/><br/>
+<sup>1<sup/>The ratio of low risk loans to high risk loans in the dataset is nearly 200:1.
 
 ## Results:
 
@@ -52,16 +53,30 @@
 ## Summary:
   * There is a summary of the results (2 pt)
   * There is a recommendation on which model to use, or there is no recommendation with a justification (3 pt)
+The data used to train the models:
+* low-risk:  68,470
+* high-risk: 347
+
+The confusion matrix below explains how to interpret the six confusion matrices shown in the results above.
+ * TP is the number of customers that the model correctly predicts to default.  
+ * FP is the number of customers that the model predicts will default but they did not.
+ * FN is the number of customers that default but the model predicts that they do not default.
+ * TN is the number of customers that do not default and the model correctly predicts that they do not default.
 
 CONFUSION MATRIX | HIGH RISK PREDICTED TRUE | HIGH RISK PREDICTED FALSE |
 -----------------|----------------|-----------------|
 HIGH RISK ACTUAL TRUE | TP | FN |
 HIGH RISK ACTUAL FALSE | FP | TN |
 
+Perfect Precision = 1.00
+TP/(TP + FP) = 375/(375 +0) = 1.00
+
+Perfect Recall (AKA Sensitivity) = 1.00
+TP/(TP + FN) = 375(375 + 0) = 1.00
 <br/><br/> 
-MODEL | BALANCED ACCURACY | PRECISION | RECALL |
+MODEL | BALANCED ACCURACY | HIGH RISK PRECISION | HIGH RISK RECALL |
 --------------------|--------------------|--------------------|--------------------|
-Formula | (TP + TN)/)TP + FP + TN + FN) | TP/(TP + FP) | TP/(TP + FN) | 
+Formula | (TP + TN)/(TP + FP + TN + FN) | TP/(TP + FP) | TP/(TP + FN) | 
 RandomOverSampler | 0.65 | 0.01 | 0.69 | 
 SMOTE | 0.66 | 0.01 | 0.63 | 
 ClusterCentroids | 0.54 | 0.01 | 0.69 |
@@ -71,7 +86,7 @@ EasyEnsembleClassifier |0.93 | 0.09 | 0.92|
 <p/>
 <br/><br/> 
 
-
+The results summarized above would indicate tht 
 
 
 
