@@ -61,7 +61,7 @@ HIGH RISK ACTUAL FALSE | FP | TN |
 <br/><br/> 
 MODEL | BALANCED ACCURACY | PRECISION | RECALL |
 --------------------|--------------------|--------------------|--------------------|
-Formula | (TP + TN)/)TP + FP + TN + FN) | TP/(TP + FP) | TP/(TP = FN) | 
+Formula | (TP + TN)/)TP + FP + TN + FN) | TP/(TP + FP) | TP/(TP + FN) | 
 RandomOverSampler | 0.65 | 0.01 | 0.69 | 
 SMOTE | 0.66 | 0.01 | 0.63 | 
 ClusterCentroids | 0.54 | 0.01 | 0.69 |
