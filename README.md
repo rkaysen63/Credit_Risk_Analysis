@@ -28,21 +28,30 @@
 
 
 ## Results:
+### Resampling Models to Predict Credit Risk
+<br/><br/> 
+MODEL | BALANCED
+<br/><br/> 
 <p align="center">
-  <a href="#">title</a>
+  <img src="images/metrics_random_oversampling.png" width="700">
+  <a href="#">*****************************************************************************************************************************************</a>
   <br/><br/> 
-  <img src="something_relevant.png" width="800">
+  <img src="images/metrics_SMOTE.png" width="700">
+  <a href="#">*****************************************************************************************************************************************</a>
+  <br/><br/> 
+  <img src="images/metrics_ClusterCentroids_Und_Smpl.png" width="700">
+  <a href="#">*****************************************************************************************************************************************</a>
+  <br/><br/> 
+  <img src="images/metrics_SMOTEENN.png" width="700">
+  <a href="#">*****************************************************************************************************************************************</a>
+  <br/><br/> 
+  <img src="images/metrics_BalancedRFC.png" width="700">
+  <a href="#">*****************************************************************************************************************************************</a>
+  <br/><br/> 
+  <img src="images/metrics_EasyEnsemble.png" width="700">
 </p>
 
-### Deliverable 1:  Use Resampling Models to Predict Credit Risk.  For all three algorithms, the following have been completed:
-* An accuracy score for the model is calculated (7.5 pt)
-* A confusion matrix has been generated (7.5 pt)
-* An imbalanced classification report has been generated (15 pt)
 
-### Deliverable 2: Use the SMOTEENN algorithm to Predict Credit Risk The combinatorial SMOTEENN algorithm does the following:
-* An accuracy score for the model is calculated (5 pt)
-* A confusion matrix has been generated (5 pt)
-* An imbalanced classification report has been generated (5 pt)
 
 ### Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk.  Complete all requirements below:
 
