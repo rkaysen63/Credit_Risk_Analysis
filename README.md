@@ -100,7 +100,6 @@ The summary chart above displays the results for high risk loan applications for
 <p align="center">
   <img src="images/CM_EasyEnsemble.png" width="500">
 </p>    
-<br/><br/>
 
   * Accuracy - EasyEnsembleClassifier has a 93% accuracy.  It outperforms the nearest model, BalancedRandomForestClassifier, by 14%.
   * Precision - Athough the precision is very low, Precision = 0.09, indicating a large number of false positives, EasyEnsembleClassifier has the least amount of false positives compared to the other models, indicating that fewer low risk loans will be rejected.  It's conservative and as stated above, it's better to reject some low risk loans than approve a number of high risk loans. Note that part of the reason the precision is so low is because the data is imbalanced. In reality only 6% (983/17104 * 100) of the low risk loans would be rejected, but that number, FP = 983, is over 10 times TP = 93, thereby aggressively lowering the precision value.  
