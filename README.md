@@ -29,9 +29,7 @@
 
 ## Results:
 ### Resampling Models to Predict Credit Risk
-<br/><br/> 
-MODEL | BALANCED
-<br/><br/> 
+
 <p align="center">
   <img src="images/metrics_random_oversampling.png" width="700">
   <a href="#">*****************************************************************************************************************************************</a>
@@ -67,7 +65,23 @@ MODEL | BALANCED
 * Results: There is a bulleted list that describes the balanced accuracy score and the precision and recall scores of all six machine learning models (15 pt)
 
 ## Summary:
- 
+
+CONFUSION MATRIX | PREDICTED TRUE | PREDICTED FALSE |
+-----------------|----------------|-----------------|
+ACTUAL TRUE | TP | FN |
+ACTUAL FALSE | FP | TN |
+<br/><br/> 
+MODEL | BALANCED ACCURACY | PRECISION | RECALL | F1
+--------------------|--------------------|--------------------|--------------------|--------------------|
+Formula | (TP + TN)/)TP + FP + TN + FN) | TP/(TP + FP) | TP/(TP = FN) | 2(PRE x REC)/(PRE + REC) |
+RandomOverSampler | 0.65 | 1.00 | 0.60 | 0.75 |
+SMOTE | 0.66 | 1.00 | 0.69 | 0.82 |
+ClusterCentroids | 0.54 | 1.00 | 0.40 | 0.57 |
+SMOTEENN | 0.66 | 1.00 | 0.58 | 0.73 |
+BalancedRandomForestClassifier | 0.79 | 1.00 | 0.87  |0.93 |
+EasyEnsembleClassifier |0.93 | 1.00 | 0.94  |0.97 |
+<p/>
+<br/><br/> 
   * There is a summary of the results (2 pt)
   * There is a recommendation on which model to use, or there is no recommendation with a justification (3 pt)
 
