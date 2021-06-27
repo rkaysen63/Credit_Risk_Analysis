@@ -24,9 +24,7 @@
 * Lesson Plan: UTA-VIRT-DATA-PT-02-2021-U-B-TTH, Module 17 Challenge
 
 ## Overview:
-The purpose of this analysis is evaluate five supervised learning models for their ability to predict high risk loans.  The models will be trained using an unbalanced<sup>1<sup/> dataset from LendingClub lending services.  
-<br/><br/>
-<sup>1<sup/>The ratio of low risk loans to high risk loans in the dataset is nearly 200:1.
+The purpose of this analysis is evaluate five supervised learning models for their ability to predict high risk loans.  The models will be trained using an unbalanced dataset from LendingClub lending services. (The ratio of low risk loans to high risk loans in the dataset used for this analysis is nearly 200:1.)
 
 ## Results:
 
@@ -68,12 +66,15 @@ CONFUSION MATRIX | HIGH RISK PREDICTED TRUE | HIGH RISK PREDICTED FALSE |
 HIGH RISK ACTUAL TRUE | TP | FN |
 HIGH RISK ACTUAL FALSE | FP | TN |
 
-Perfect Precision = 1.00
-TP/(TP + FP) = 375/(375 +0) = 1.00
-
-Perfect Recall (AKA Sensitivity) = 1.00
-TP/(TP + FN) = 375(375 + 0) = 1.00
+* Precision<br/><br/> 
+Precision is a ratio of true positive predictions to total positive predictions.   As precision approaches 1.00, false positives diminish. <br/><br/> 
+`TP/(TP + FP) = 375/(375 +0) = 1.00`<br/><br/> 
 <br/><br/> 
+* Recall (AKA Sensitivity)<br/><br/> 
+`TP/(TP + FN) = 375(375 + 0) = 1.00`<br/><br/> 
+Sensitivity is a ratio true positive predictions to total actual values.  As sensitivity approaches 1.00, false negatives diminish.<br/><br/> 
+<br/><br/> 
+
 MODEL | BALANCED ACCURACY | HIGH RISK PRECISION | HIGH RISK RECALL |
 --------------------|--------------------|--------------------|--------------------|
 Formula | (TP + TN)/(TP + FP + TN + FN) | TP/(TP + FP) | TP/(TP + FN) | 
@@ -86,7 +87,6 @@ EasyEnsembleClassifier |0.93 | 0.09 | 0.92|
 <p/>
 <br/><br/> 
 
-The results summarized above would indicate tht 
 
 
 
