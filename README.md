@@ -1,7 +1,7 @@
 # Credit_Risk_Analysis
 
 <p align="center">
-  <img src="images/Loan-Free-PNG-Image.png" width="400">
+  <img src="images/Loan-Free-PNG-Image.png" width="300">
   <br/><br/>
   <a href="#">Resampling Models to Predict Credit Risk</a>
 </p>
@@ -53,21 +53,21 @@
   * There is a summary of the results (2 pt)
   * There is a recommendation on which model to use, or there is no recommendation with a justification (3 pt)
 
-CONFUSION MATRIX | PREDICTED TRUE | PREDICTED FALSE |
+CONFUSION MATRIX | HIGH RISK PREDICTED TRUE | HIGH RISK PREDICTED FALSE |
 -----------------|----------------|-----------------|
-ACTUAL TRUE | TP | FN |
-ACTUAL FALSE | FP | TN |
+HIGH RISK ACTUAL TRUE | TP | FN |
+HIGH RISK ACTUAL FALSE | FP | TN |
 
 <br/><br/> 
-MODEL | BALANCED ACCURACY | PRECISION | RECALL | F1
---------------------|--------------------|--------------------|--------------------|--------------------|
-Formula | (TP + TN)/)TP + FP + TN + FN) | TP/(TP + FP) | TP/(TP = FN) | 2(PRE x REC)/(PRE + REC) |
-RandomOverSampler | 0.65 | 1.00 | 0.60 | 0.75 |
-SMOTE | 0.66 | 1.00 | 0.69 | 0.82 |
-ClusterCentroids | 0.54 | 1.00 | 0.40 | 0.57 |
-SMOTEENN | 0.66 | 1.00 | 0.58 | 0.73 |
-BalancedRandomForestClassifier | 0.79 | 1.00 | 0.87  |0.93 |
-EasyEnsembleClassifier |0.93 | 1.00 | 0.94  |0.97 |
+MODEL | BALANCED ACCURACY | PRECISION | RECALL |
+--------------------|--------------------|--------------------|--------------------|
+Formula | (TP + TN)/)TP + FP + TN + FN) | TP/(TP + FP) | TP/(TP = FN) | 
+RandomOverSampler | 0.65 | 0.01 | 0.69 | 
+SMOTE | 0.66 | 0.01 | 0.63 | 
+ClusterCentroids | 0.54 | 0.01 | 0.69 |
+SMOTEENN | 0.66 | 0.01 | 0.75 |  
+BalancedRandomForestClassifier | 0.79 | 0.03 | 0.70   |
+EasyEnsembleClassifier |0.93 | 0.09 | 0.92|
 <p/>
 <br/><br/> 
 
