@@ -28,8 +28,8 @@
 
 
 ## Results:
-### Resampling Models to Predict Credit Risk
 
+  <h3>Resampling Models to Predict Credit Risk</h3>
 <p align="center">
   <img src="images/metrics_random_oversampling.png" width="700">
   <a href="#">*****************************************************************************************************************************************</a>
@@ -49,27 +49,15 @@
   <img src="images/metrics_EasyEnsemble.png" width="700">
 </p>
 
-
-
-### Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk.  Complete all requirements below:
-
-* The BalancedRandomForestClassifier algorithm does the following:
-  * An accuracy score for the model is calculated (2.5 pt)
-  * A confusion matrix has been generated (2.5 pt)
-  * An imbalanced classification report has been generated (5 pt)
-  * The features are sorted in descending order by feature importance (5 pt)
-* The EasyEnsembleClassifier algorithm does the following:
-  * An accuracy score of the model is calculated (2.5 pt)
-  * A confusion matrix has been generated (2.5 pt)
-  * An imbalanced classification report has been generated (5 pt)
-* Results: There is a bulleted list that describes the balanced accuracy score and the precision and recall scores of all six machine learning models (15 pt)
-
 ## Summary:
+  * There is a summary of the results (2 pt)
+  * There is a recommendation on which model to use, or there is no recommendation with a justification (3 pt)
 
 CONFUSION MATRIX | PREDICTED TRUE | PREDICTED FALSE |
 -----------------|----------------|-----------------|
 ACTUAL TRUE | TP | FN |
 ACTUAL FALSE | FP | TN |
+
 <br/><br/> 
 MODEL | BALANCED ACCURACY | PRECISION | RECALL | F1
 --------------------|--------------------|--------------------|--------------------|--------------------|
@@ -82,8 +70,7 @@ BalancedRandomForestClassifier | 0.79 | 1.00 | 0.87  |0.93 |
 EasyEnsembleClassifier |0.93 | 1.00 | 0.94  |0.97 |
 <p/>
 <br/><br/> 
-  * There is a summary of the results (2 pt)
-  * There is a recommendation on which model to use, or there is no recommendation with a justification (3 pt)
+
 
 
 
